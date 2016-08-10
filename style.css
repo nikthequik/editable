@@ -1,0 +1,19 @@
+.first {
+	height: 10vh;
+	width: 20vw;
+	margin: 0 auto 5em;
+	position: relative;
+}
+
+.second {
+	height: auto;
+	width: 20vw;
+	margin: 0 auto;
+}
+
+.editButton {
+	position: absolute;
+	right: 1px;
+	top: 1px;
+	width: 4em;
+}

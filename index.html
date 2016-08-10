@@ -3,10 +3,22 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Editable Test Env</title>
+	<link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body ng-app='editable'>
+
+	<div class="first" make-editable>
+		<h1>This text should be editable!!!</h1>
+		<p>As well as this paragraph</p>
+	</div>
+
+	<div class="second" make-editable>
+		<h2>Here is a second header that should be editable</h2>
+		<p>As well as the paragraph.</p>
+	</div>
 	
-	<script src="angular.js"></script>
 	<script src="jquery.js"></script>
+	<script src="angular.js"></script>
+	<script src="app.js"></script>
 </body>
 </html>
